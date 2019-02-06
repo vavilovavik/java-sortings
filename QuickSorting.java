@@ -29,7 +29,7 @@ public class QuickSorting {
                 j--;
             }
 
-            if(j <= j) {
+            if(i <= j) {
                 int tmp = items[i];
                 items[i] = items[j];
                 items[j] = tmp;
