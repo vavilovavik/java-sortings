@@ -29,6 +29,6 @@ public class InsertionSorting {
             items[i] = items[i - 1];
         }
 
-        items[currentPos] = temp;
+        items[insertIndex + 1] = temp;
     }
 }
