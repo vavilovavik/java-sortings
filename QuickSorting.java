@@ -2,7 +2,7 @@ package sorting;
 
 public class QuickSorting {
     public void sort(int[] items) {
-
+        quickSort(items, 0, items.length - 1);
     }
 
     public void quickSort(int[] items, int left, int right) {
