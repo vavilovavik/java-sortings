@@ -11,6 +11,8 @@ public class MergeSorting {
 
         int[] left = Arrays.copyOfRange(items, 0, middle);
         int[] right = Arrays.copyOfRange(items, middle, items.length);
+        sort(left);
+        sort(right);
         return merge(left, right);
     }
 
